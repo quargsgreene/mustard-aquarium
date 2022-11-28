@@ -2,7 +2,7 @@ let soundFile;
 
 //load files
 function preload() {
-  soundFile = loadSound("01202021 Quargs Greene Undefined.mp3");
+  soundFile = loadSound("Eustachian Food Slide 2 48k 10192022 (1).mp3");
 }
 
 function setup() {
@@ -16,12 +16,12 @@ function setup() {
   background(29);
   angleMode(DEGREES);
  	fft = new p5.FFT(0.99, 1024);
-	
+
 	let play_button;
-  play_button = createButton("Undefined");
+  play_button = createButton("Eustachian Food Slide");
   play_button.mousePressed(playFile);
   play_button.position(width / 16, height / 12);
-	
+
 	function playFile() {
   //randomly select a direction and playback speed from an array of options
   let direction_speed = [-2, -1.5, -1, -0.75, 0.75, 1, 1.5, 2];
