@@ -97,7 +97,7 @@ function setup() {
   invisible_button_1.mousePressed(alertNoise);
 
   let invisible_message = createP(
-    "The earwax strips stole their pigment from egg yolks and are corporally paddling semen nuggets above the pixel ocean!"
+    "The earwax strips stole their pigment from egg yolks and are corporally paddling cerebrospinal fluid nuggets above the pixel ocean!"
   );
 
   invisible_message.position(width / 20, (3 * height) / 4);
@@ -211,7 +211,7 @@ function windowResized() {
 
 function alertNoise() {
   alert(
-    "The ringed testicles and their bordered, square scrota have escaped. Hear them roar!"
+    "The ringed kidneys and their bordered, square ureters have escaped. Hear them roar!"
   );
   let freq = 20;
   let burst = new p5.Noise("pink");
