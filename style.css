@@ -1,7 +1,31 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-image: url('bg1.jpg');
+  font-family: 'Monaco';
+  color: white;
 }
 canvas {
   display: block;
+}
+
+.directions {
+  font-family: inherit;
+  font-size: 3em;
+  color: white;
+}
+
+.sentence {
+  background-color: rgba(220,220,220,10);
+  font-family: inherit;
+  color: rgb(79, 206, 114);
+  padding: 10px;
+  border: solid black 2px;
+}
+
+.invisible {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  z-index: -1;
 }
