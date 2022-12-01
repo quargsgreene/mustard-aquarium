@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url('bg1.jpg');
+  background-image: url('backgroundImage.jpg');
   font-family: 'Monaco';
   color: white;
 }
