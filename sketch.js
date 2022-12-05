@@ -20,6 +20,7 @@ function setup() {
 
   const playButton = createButton('Eustachian Food Slide');
   playButton.mousePressed(playFile);
+  playButton.id('play');
   playButton.position(width / 16, height / 12);
 
   function playFile() {
