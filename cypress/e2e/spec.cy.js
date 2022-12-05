@@ -1,4 +1,4 @@
-describe('Mustard Aquarium Tests', () => {
+describe('Mustard Aquarium Browser Tests', () => {
   it('visits the Mustard Aquarium page', () => {
     cy.visit('https://quargsgreene.github.io/mustard-aquarium/');
   });
