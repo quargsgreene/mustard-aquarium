@@ -11,4 +11,13 @@ describe('Mustard Aquarium Tests', () => {
         audio.play();
       });
   });
+
+  it('finds invisible elements', () => {
+    cy.get('.invisible')
+      .click({ multiple: true, timeout: 10000, force: true });
+  });
+
+  it('displays the message', () => {
+    cy.get('.sentence', { timeout: 10000 });
+  });
 });
