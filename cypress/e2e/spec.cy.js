@@ -4,7 +4,7 @@ describe('Mustard Aquarium Tests', () => {
   });
 
   it('starts the audio of the song', () => {
-    cy.get('#play')
+    cy.get('#start-audio')
       .invoke('attr', 'src')
       .then((audioFile) => {
         const audio = new Audio(audioFile);
